@@ -1,0 +1,49 @@
+{
+  "name": "an0notf-v3-xmd",
+  "version": "3.0.0",
+  "description": "🅰️𝐧𝟎𝐧𝐎𝐭𝐅-𝐕𝟑 𝐗𝐌𝐃 ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo 'Bot is ready!' && node index.js",
+    "heroku-postbuild": "echo 'Build complete!'",
+    "railway": "node index.js",
+    "render": "node index.js",
+    "predeploy": "npm install"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "latest",
+    "qrcode-terminal": "latest",
+    "moment": "latest",
+    "chalk": "latest",
+    "@hapi/boom": "latest",
+    "colors": "latest",
+    "pino": "latest",
+    "express": "latest"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "an0notf",
+    "xmd",
+    "toxic-plans",
+    "baileys",
+    "whatsapp-bot"
+  ],
+  "author": "Tylor | An0nOtF Technologies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/An0nOtF-XMD/An0nOtF-XMD-V3.git"
+  },
+  "homepage": "https://github.com/An0nOtF-XMD/An0nOtF-XMD-V3#readme",
+  "bugs": {
+    "url": "https://github.com/An0nOtF-XMD/An0nOtF-XMD-V3/issues"
+  }
+}
